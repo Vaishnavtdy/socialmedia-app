@@ -1,0 +1,55 @@
+#root {
+  margin: 0 auto;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  max-width: 1600px;
+  background: linear-gradient(135deg, #E3E3F6 0%, #F0E9F9 100%);
+}
+
+/* Define the container for the sidebars and content */
+.container {
+  display: flex;
+  height: 100%;
+  margin-top: 73px;
+}
+
+/* Define the left sidebar */
+.sidebar-left {
+  display: flex;
+  width: 25%;
+  max-width: 400px;
+  position: fixed;
+  height: 100%;
+  left: 0;
+}
+
+/* Define the right sidebar */
+.sidebar-right {
+  width: 25%;
+  max-width: 400px;
+  position: fixed;
+  right: 0;
+  float: right;
+  height: 100%;
+}
+
+/* Define the content area */
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 0 25%; 
+  padding: 24px 80px;
+  height: 100%;
+  width: 50%;
+}
+.recent_heading{
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  color: #403060;
+}
