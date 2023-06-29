@@ -8,6 +8,9 @@ import jenny from './jenny.png'
 import guy from './guy.png'
 import robert from './robert.png'
 import flower from './flower.png'
+import img1 from './img1.png'
+import img2 from './img2.png'
+import img3 from './img3.png'
 
 export {
     my_avatar,
@@ -19,5 +22,8 @@ export {
     jenny,
     guy,
     robert,
-    flower
+    flower,
+    img1,
+    img2,
+    img3
 }

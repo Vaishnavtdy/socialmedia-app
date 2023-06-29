@@ -41,7 +41,7 @@ export const TopSection = styled.div`
 
 export const BottomSection = styled.div`
   display: flex;
-  width: 90%;
+  width: auto;
   margin: 16px 24px;
   flex-direction: column;
   padding: 16px;
